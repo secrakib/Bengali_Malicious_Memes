@@ -66,6 +66,11 @@ The dataset, Annotation Guideline, Data Source and End-to-End Pipeline will be p
 
 ---
 
+
+## Example of Memes
+<img width="500" height="500" alt="photo-collage png" src="https://github.com/user-attachments/assets/e694afd8-e4d0-4cf2-b1db-c7214d9aae73" />
+
+
 ## 📈 Evaluation
 
 - **Metric:** Macro F1-score and Accuracy
