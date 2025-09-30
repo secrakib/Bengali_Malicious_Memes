@@ -1,4 +1,4 @@
-# A ProActive Framework for Analyzing and Detection Bengali Malicious Memes: A Spectrum from Benign Humor to Outright Hate
+# A Framework for Analyzing and Detecting Bengali Malicious Memes: A Spectrum from Benign Humor to Inflamatory And Outright Hate
 
  
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
@@ -41,7 +41,7 @@ The system classifies memes into three categories:
 - **Splits:** 70% train / 15% validation / 15% test  
 - **Text Extraction:** OCR (Gemini API) with manual correction  
 
-The dataset will be publicly available in this repository under [dataset/](dataset/) directory upon publication.
+The dataset, Annotation Guideline, Data Source and End-to-End Pipeline will be publicly available in this repository upon publication.
 
 ---
 ## Models and Fusion Strategies
