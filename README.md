@@ -74,8 +74,8 @@ The dataset, Annotation Guideline, Data Source and End-to-End Pipeline will be p
 ## 📈 Evaluation
 
 - **Metric:** Macro F1-score and Accuracy
-- **Performance:** **77.65% Macro F1**, improving 5.3% over strong baselines.  
-- **Baseline models:** Standard multimodal classification baselines for benchmarking.
+- **Multi-Modal Performance:** **77.65% Macro F1**, improving 5.3% over best baseline with task-adapted Co-attention Fusion
+- **Baseline Performance:** **72.35% Macro F1** with MDeberta
 
 ---
 
