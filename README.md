@@ -13,13 +13,13 @@ Traditional content moderation approaches often rely on **topic-based or binary 
 This project introduces a **culturally aware, communicative-intent-driven framework** for Bengali memes, aiming to detect nuanced intents in multimodal content.
 
 ### Why it Matters
-1. Automated Content Moderation: Traditional systems rely on users to manually report malicious content. This project automates the detection process, leading to faster and more efficient moderation without burdening users.
+1. Automated Detection: Replaces manual user reporting with a fast, automated system for more efficient content moderation.
 
-2. Proactive Intervention: Simply blocking users for overt hate speech is a reactive measure. This work focuses on identifying the more subtle, inflammatory content that often precedes hate speech. By understanding sarcastic and nuanced language, we can intervene earlier.
+2. Proactive Intervention: Moves beyond reacting to hate speech by identifying the subtle, inflammatory, and sarcastic content that often precedes it.
 
-3. Nuanced Threat Analysis: The model helps distinguish between generally hostile communities and those specifically creating and spreading targeted hate speech. This allows for more precise moderation and a better understanding of the origins of harmful content.
+3. Precise Threat Analysis: Distinguishes between generally hostile groups and targeted hate-speech creators for more effective moderation.
 
-4. Advanced Linguistic Support: This project is designed to handle code-mixed and code-switched language. This is a critical feature for accurately analyzing modern online conversations, where conventional tools often fail. 
+4. Code-Mixed Language Support: Accurately analyzes modern online conversations that mix languages (e.g., Banglish), where conventional tools often fail.
 
 The system classifies memes into three categories:
 
