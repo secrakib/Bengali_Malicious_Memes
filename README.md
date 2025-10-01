@@ -1,5 +1,4 @@
-# A Framework for Analyzing and Detecting Bengali Malicious Memes: A Spectrum from Benign Humor to Inflamatory And Outright Hate
-
+# A Framework for Analyzing and Detecting Bengali Malicious Memes 
  
 [![Python Version](https://img.shields.io/badge/python-3.10+-blue.svg)](https://www.python.org/)
 
@@ -10,12 +9,12 @@ This repository includes dataset, code, and models for [Title of Paper] of Benga
 ## 📌 Overview
 
 Traditional content moderation approaches often rely on **topic-based or binary classification** (hate vs. non-hate).  
-This project introduces a **culturally aware, communicative-intent-driven framework** for Bengali memes, aiming to detect nuanced intents in multimodal content.
+This project introduces a **culturally aware**, ... for Bengali memes, aiming to detect nuanced intents in multimodal content.
 
 ### Why it Matters
 1. Automated Detection: Replaces manual user reporting with a fast, automated system for more efficient content moderation.
 
-2. Proactive Intervention: Moves beyond reacting to hate speech by identifying the subtle, inflammatory, and sarcastic content that often precedes it.
+2. Proactive Intervention: Moves beyond reacting to hate speech by identifying the subtle, X, and sarcastic content that often precedes it.
 
 3. Precise Threat Analysis: Distinguishes between generally hostile groups and targeted hate-speech creators for more effective moderation.
 
@@ -25,15 +24,15 @@ The system classifies memes into three categories:
 
 | Category      | Description |
 |---------------|-------------|
-| **Hate**  | Personal or group attacks, harassment |
-| **Inflamatory** | Content designed to provoke controversy or manipulate emotions |
-| **Benign**  | Neutral, humorous, or non-offensive content |
+| **X**  | Personal or group attacks, harassment |
+| **Y** | Content designed to .... |
+| **Z**  | Neutral, humorous, or non-offensive content |
 
 ---
 
 ## 🗂 Dataset
 
-### Bangla Intent Dataset (BID)
+### Bangla X Dataset (BID)
 - **Source:** 25 public Facebook groups  
 - **Raw Memes:** 5,000 images → filtered to **3,247 multimodal memes**  
 - **Annotation:** 3 expert annotators (Fleiss’ kappa: 0.79)  
@@ -82,15 +81,14 @@ The dataset, Annotation Guideline, Data Source and End-to-End Pipeline will be p
 ## 🛠 Installation
 
 1. Clone the repository:
-```bash
-git clone https://github.com/<username>/bengali-meme-intent-classification.git
-cd bengali-meme-intent-classification
+```
+git clone https://github.com/secrakib/Bengali_Malicious_Memes.git
 ```
 
 
 ## 📂 Repository Structure
 ```
-bengali-meme-intent-classification/
+bengali-meme-x-classification/
 ├── 📄 README.md
 ├── 📄 LICENSE
 ├── 📁 Annotation Guideline/
@@ -108,14 +106,15 @@ bengali-meme-intent-classification/
 ```
 ## Contribution
 ```
-Rakib Ullah : Coding,Conceptaulization,Formal Analysis,Data-Creation,Annotation GuideLine Formulation, Writing Original Draft
-Mominul Islam : Writing And Review, Supervision, Data-Curation
+Rakib Ullah : Coding,Conceptaulization,Formal Analysis,Data-Creation,Annotation-GuideLine-Formulation, Writing-Original-Draft
+Mominul Islam : Writing And Review, Supervision, Data-Curation, Project-Administration
+Sanjid Ahmed : Data-Curation, Writing-Original-Draft
 ```
 
 ## 📚 Citation
 ```
 @inproceedings{rakib2025bengali,
-  title={Low-Resource Multimodal Content Moderation: Intent-Aware Classification of Bengali Memes},
+  title={Low-Resource Multimodal Content Moderation: X-Aware Classification of Bengali Memes},
   author={Rakib Ullah et al.},
   year={2025},
 }
